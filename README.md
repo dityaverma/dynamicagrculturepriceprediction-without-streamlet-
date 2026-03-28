@@ -1,26 +1,64 @@
-# dynamic-agriculture-price-prediction
+# 🌾 Dynamic Agriculture Price Prediction
 
-## Project Description
-This project predicts the modal price of agricultural commodities using machine learning. It leverages historical market data, commodity details, and arrival dates. 
+## 📌 Overview
+This project predicts the **modal price of agricultural commodities** using machine learning techniques. It leverages historical market data and commodity-specific attributes to help understand price trends and support data-driven decision-making.
 
-## Technologies Used
-- Python, scikit-learn, XGBoost
-- Pandas, NumPy for data processing
-- Matplotlib for visualization
-- Joblib for model persistence
+---
 
-## Dataset
-- The dataset used here is from Nashik district, Maharashtra, collected from data.gov.in.
-- Provided data includes features such as `Market`, `Commodity`, `Variety`, `Grade`, `Arrival_Date`, and `Commodity_Code`.
-- Target variable is `Modal_Price`.
-- Data preprocessing includes encoding of categorical variables and date transformation.
+## 🎯 Objective
+To build a predictive system that estimates agricultural commodity prices based on:
+- Market location
+- Commodity type
+- Arrival date
+- Other influencing factors
 
-## Features
-- Complete data preprocessing pipeline
-- ML models (Linear Regression, XGBoost)
-- Model persistence with joblib
-- Production-ready code structure
+This can assist farmers, traders, and policymakers in making informed decisions.
 
-## Installation and Usage
-- Open prediction_using_model.py
-- Run it
+---
+
+## 🧠 Tech Stack
+- **Python**
+- **scikit-learn**
+- **XGBoost**
+- **Pandas, NumPy**
+- **Matplotlib**
+- **Joblib**
+
+---
+
+## 📊 Dataset
+- Source: **data.gov.in**
+- Region: Nashik district, Maharashtra  
+- Key Features:
+  - Market
+  - Commodity
+  - Variety
+  - Grade
+  - Arrival Date
+  - Commodity Code  
+- Target Variable:
+  - **Modal Price**
+
+### 🔧 Data Processing
+- Encoding categorical variables  
+- Date feature transformation  
+- Cleaning and structuring raw data  
+
+---
+
+## 🚀 Features
+- End-to-end data preprocessing pipeline  
+- Multiple ML models (Linear Regression, XGBoost)  
+- Model persistence using Joblib  
+- Structured and modular codebase  
+
+---
+
+## ⚙️ How to Run
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run prediction script
+python prediction_using_model.py
